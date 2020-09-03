@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ankit Jain - Software Developer</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Fron-end Web developer in New York City"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <p id="pdf-version">
+      <a [href]="resumeConfig.other.pdf_link" target="_blank">{{
+        resumeConfig.other.pdf_text
+      }}</a>
+    </p>
+    <header>
+      <div id="title">
+        <h1>{{ resumeConfig.personal.name }}</h1>
+        <p>{{ resumeConfig.personal.position }}</p>
+        <p>{{ resumeConfig.personal.location }}</p>
+      </div>
+      <div id="contact-info">
+        <p>{{ resumeConfig.personal.phone }}</p>
+        <p>
+          <a [href]="resumeConfig.personal.git_link">{{
+            resumeConfig.personal.git_text
+          }}</a>
+        </p>
+        <p>{{ resumeConfig.personal.email }}</p>
+      </div>
+    </header>
+    <section>
+      <h2>{{ resumeConfig.summary.title }}</h2>
+      <p>{{ resumeConfig.summary.description }}</p>
+    </section>
+
+    <section>
+      <h2>{{ resumeConfig.skills.title }}</h2>
+      <table id="skills" *ngFor="let skill of resumeConfig.skills.details">
+        <tr>
+          <td class="skills-section">{{ skill.skill_type }}</td>
+          <td>{{ skill.skill_data }}</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>{{ resumeConfig.work.title }}</h2>
+      <div class="work_ex" *ngFor="let work of resumeConfig.work.workEx">
+        <div class="job-header">
+          <div class="job-title">
+            <h3>{{ work.job_title }}</h3>
+            <h4>{{ work.employer }}</h4>
+          </div>
+          <div class="job-info">
+            <p>{{ work.location }}</p>
+            <p class="date">{{ work.timeline }}</p>
+          </div>
+        </div>
+        <ul *ngFor="let job_duty of work.job_duties">
+          <li>{{ job_duty }}</li>
+        </ul>
+        <p>{{ work.skills }}</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>{{ resumeConfig.education.title }}</h2>
+
+      <div
+        class="job-header"
+        *ngFor="let uni of resumeConfig.education.details"
+      >
+        <div class="job-title">
+          <h3>{{ uni.university_name }}</h3>
+          <h4>{{ uni.degree }}</h4>
+        </div>
+        <div class="job-info">
+          <p>{{ uni.location }}</p>
+          <p class="date">{{ uni.timeline }}</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

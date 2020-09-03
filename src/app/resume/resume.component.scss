@@ -1,0 +1,98 @@
+.container {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+* {
+    font-family: 'Crimson Text', serif; 
+    text-size-adjust: 80%;
+}
+p#pdf-version  {
+    text-align: center;
+    margin: 0em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    margin-top: 0em;
+    margin-bottom: .5em;
+}
+header div#title h1, p {
+    margin-top: .0em;
+    margin-bottom: .0em; 
+}
+header div#contact-info {
+    float: right;
+    text-align: right;
+    align-self: flex-end;
+}
+header div#contact-info p {
+    margin-bottom: 0em;
+    margin-top: 0em;
+    line-height: 1.2em;
+}
+section {
+    padding-bottom: 1em;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+section:last-of-type {
+    border-style: none;
+}
+section * {
+    margin: 0em;
+}
+section h2 {
+    margin-top: .0em;
+    margin-bottom: .0em;
+    font-size: 24px;
+    font-weight: 700;
+}
+section p {
+    margin-left: 0em;
+}
+table#skills {  
+    margin-right: auto;
+}
+table#skills td {
+    vertical-align: top;
+    padding-left: 0;
+}
+table#skills td.skills-section {
+    min-width: 140px;
+}
+div.job-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .5em;
+}
+div.job-title {
+    float: right;
+    align-self: flex-end;
+}
+div.job-info {
+    text-align: right;
+    margin: 0em;
+    line-height: 1.2em;
+    align-self: flex-end;
+}
+div.job-info p.date {
+    font-style: italic;
+}
+ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+}
+a {
+    color: black;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 1.17rem;
+    font-weight: 700;
+}

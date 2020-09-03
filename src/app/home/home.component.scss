@@ -1,0 +1,53 @@
+.home {
+  background-image: url("../../assets/bg.jpg");
+  height: 100%;
+  background-size: cover;
+  margin-top: -64px;
+  margin-left: -8px;
+}
+
+.home__content {
+  padding-top: 14rem;
+  padding-left: 17rem;
+}
+
+.welcome__message {
+  font-family: "montserrat-medium", sans-serif;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: darkslategrey;
+}
+
+.introduction {
+  font-family: "montserrat-medium", sans-serif;
+  font-size: 4.2rem;
+  letter-spacing: 0.3rem;
+  line-height: 1.333;
+  color: #757575;
+  font-weight: 400;
+}
+
+.introduction span:first-of-type {
+  color: darkturquoise;
+  cursor: pointer;
+}
+
+.name_popup::before {
+  content: "";
+  background-image: url("../../assets/pop_up.jpg");
+  background-repeat: no-repeat;
+  left: 0;
+  position: absolute;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+  background-position: 70%;
+  background-size: 300px;
+  height: 220px;
+  bottom: 0vh;
+}
+
+.name_popup:hover::before {
+  transform: translateY(0px);
+  width: 100vw;
+}

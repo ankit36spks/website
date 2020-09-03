@@ -1,0 +1,157 @@
+{
+  "home": {
+    "welcome": "Welcome to my portfolio",
+    "name": "Ankit Jain.",
+    "hi": "Hey,",
+    "intro_1": "Myself ",
+    "intro_2": "I'm ",
+    "qualities": [
+      "Punctual",
+      "Hopeful",
+      "Innovative",
+      "Athletic",
+      "Believer",
+      "Thinker"
+    ],
+    "intro_3": "Punctual, Hopeful, Innovative & Believer"
+  },
+  "resume": {
+    "personal": {
+      "name": "Ankit Jain",
+      "position": "Front End Developer",
+      "location": "New York, NY",
+      "phone": "(682) 583 5942",
+      "git_text": "github.com/ankitspks",
+      "git_link": "https://github.com/",
+      "email": "ankit.jain3663@gmail.com"
+    },
+    "summary": {
+      "title": "Summary",
+      "description": "As a web developer, my goals are to create online digital interactions for users that are visually appealing, engaging and standards compliant. It is my passion to fully utilize skills gained through education, corporate employment & entrepreneurial endeavors in challenging environments that thrive on engagement of creative, outside-the-box ideas, methods and processes."
+    },
+    "skills": {
+      "title": "Skills",
+      "details": [
+        {
+          "skill_type": "Languages",
+          "skill_data": "JavaScript, Bash, RegEx, C, C++, Java"
+        },
+        {
+          "skill_type": "Web",
+          "skill_data": "HTML, CSS, AngularJS, Angular 4-10, SASS/LESS, NgRX, JQuery, Bootstrap, Wordpress, React, REST"
+        },
+        {
+          "skill_type": "Operating Systems",
+          "skill_data": "Linux (Ubuntu), MacOS, Windows"
+        },
+        {
+          "skill_type": "Paradigms",
+          "skill_data": "Test-driven development (TDD), Agile"
+        },
+        {
+          "skill_type": "Tools",
+          "skill_data": "Git, SVN, JIRA, Slack, Sketch, Jenkins"
+        },
+        {
+          "skill_type": "Self Learning",
+          "skill_data": "React, NodeJS, React Native, Python"
+        }
+      ]
+    },
+    "work": {
+      "title": "Work Experience",
+      "workEx": [
+        {
+          "job_title": "Front End Engineer",
+          "employer": "Zipari",
+          "location": "New York, NY",
+          "timeline": "February 2020 - Present",
+          "job_duties": [
+            "Oversaw rearchitecture of the back-end services that power Intelligize's most critical applications",
+            "Helped CTO manage 60+ developers",
+            "Conceptualized and designed user interface mockup-ups",
+            "Interviewed customers, sales and support teams to ideate and prioritize projects",
+            "Designed system components and delivered requirements to engineering teams",
+            "Oversaw the redesign of front-end components to use React"
+          ],
+          "skills": "Skills used: Product management, database design, JIRA, Sketch, Agile, product management, UX design"
+        },
+        {
+          "job_title": "Front End Developer",
+          "employer": "Vanguard",
+          "location": "Malvern, PA",
+          "timeline": "April 2019 - January 2020",
+          "job_duties": [
+            "Initiated application of digital path for multi-million dollar clients",
+            "Conceptualized and designed user interface mockup-ups wih UX",
+            "Connectetd with clients and support teams to ideate and prioritize projects",
+            "Designed system components and delivered requirements to engineering teams",
+            "Oversaw the redesign of front-end components to use RxJS and Redux"
+          ],
+          "skills": "Skills used: Angular 8, Sass, HTML, flexbox, Bamboo, Git, Bit bucket, Gatekeeper, NgRX, Jira, Jasmine, Karma and Cucumber"
+        },
+        {
+          "job_title": "Angular Developer",
+          "employer": "CVS Health",
+          "location": "Northbrook, IL",
+          "timeline": "August 2016 - March 2019",
+          "job_duties": [
+            "Designed and built financial research software for the web",
+            "Built a machine learning algorithm to classify financial risk factors",
+            "Built an application for tracking and classifying correspondences between public companies and the SEC",
+            "Built a system to match stock ticker codes with companies' public filings",
+            "Built a QC panel for normalizing law firm entity names",
+            "Built dashboards to monitor application speed, reliability and data integrity",
+            "Built software for continuously maintaining and improving these systems",
+            "Oversaw legacy code migration and improvement of code quality"
+          ],
+          "skills": "Skills used: Angular 4.0, AngularJS, HTML5, CSS3, JavaScript, BootStrap3, NodeJS"
+        },
+        {
+          "job_title": "Web Developer",
+          "employer": "Freelancing",
+          "location": "Arlington, TX",
+          "timeline": "August 2015 - July 2016",
+          "job_duties": [
+            "Integrated a real-time social content delivery platform into customers' websites",
+            "Identified bugs and worked with developers to improve system architecture",
+            "Collected client feedback and determined long-term value and cost-effectiveness of change requests"
+          ],
+          "skills": "Skills used: HTML, CSS, JavaScript, jQuery, Bootstrap, web scraping"
+        },
+        {
+          "job_title": "Junior Web Developer",
+          "employer": "IT Souls",
+          "location": "Gujarat, India",
+          "timeline": "July 2013 - May 2014",
+          "job_duties": [
+            "Responsible for the overall responsive web design and color scheme of a website for my university",
+            "built an efficient relationship between students and alumni using HTML, CSS grid, REST and media queries"
+          ],
+          "skills": "Skills used: HTML, CSS, JavaScript, RegEx, MySQL"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "details": [
+        {
+          "university_name": "University of Texas, Arlington (UTA)",
+          "degree": "Masters in Commmputer Science",
+          "location": "Arlington, TX",
+          "timeline": "2014 - 2016"
+        },
+        {
+          "university_name": "Gujarat Technological University (GTU)",
+          "degree": "Bachelors in Commmputer Science",
+          "location": "Gujarat, India",
+          "timeline": "2010 - 2014"
+        }
+      ]
+    },
+    "other": {
+      "pdf_text": "Click here for a PDF version",
+      "pdf_link": "../../assets/resume.pdf"
+    }
+  }
+}

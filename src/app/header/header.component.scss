@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -8px;
+}
+
+.black__background {
+  background-color: black;
+}
+
+.transparent__background {
+  background-color: transparent;
+}
+
+.navbarText {
+  padding-right: 20rem;
+}
+
+.navbarText ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  font-family: "montserrat-medium", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #757575;
+}
+
+.logo {
+  width: 5rem;
+  height: 4rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-nav {
+  margin-top: 1.5rem;
+}

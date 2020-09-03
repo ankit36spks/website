@@ -1,0 +1,43 @@
+.home-social {
+  list-style: none;
+  position: absolute;
+  top: 30%;
+  right: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-social a {
+  color: #ffffff;
+}
+
+.home-social li {
+  padding: 0.9rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-social i {
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  line-height: 33px;
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+
+.home-social span {
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+  color: grey;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.home-social li:hover {
+  .link {
+    visibility: visible;
+    opacity: 1;
+  }
+}
