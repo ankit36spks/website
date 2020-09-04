@@ -21,8 +21,8 @@
       "position": "Front End Developer",
       "location": "New York, NY",
       "phone": "(682) 583 5942",
-      "git_text": "github.com/ankitspks",
-      "git_link": "https://github.com/",
+      "git_text": "github.com/ankit36spks",
+      "git_link": "https://github.com/ankit36spks",
       "email": "ankit.jain3663@gmail.com"
     },
     "summary": {
@@ -67,14 +67,17 @@
           "location": "New York, NY",
           "timeline": "February 2020 - Present",
           "job_duties": [
-            "Oversaw rearchitecture of the back-end services that power Intelligize's most critical applications",
-            "Helped CTO manage 60+ developers",
-            "Conceptualized and designed user interface mockup-ups",
-            "Interviewed customers, sales and support teams to ideate and prioritize projects",
-            "Designed system components and delivered requirements to engineering teams",
-            "Oversaw the redesign of front-end components to use React"
+            "Working closely with UX and back-end Developers on daily basis to discuss design and requirements",
+            "Design, build, and implement applications that drive functionality and optimize front end performance",
+            "Apply understanding of Angular frameworks to implement and productize components as specified by the product owner",
+            "Apply knowledge of UI Development (HTML, CSS, JavaScript, TypeScript) to understand client configuration demands and fulfill them by code modification if needed",
+            "Apply experience with Angular 8+ to support legacy clients and backward port some critical new features",
+            "Use Javascript to build and deliver all Angular work and maintain legacy code",
+            "Working with Restful APIs to efficiently communicate with all back end systems and sometimes client systems to get, list, and update UI state",
+            "Working in an agile environment with an excellent team of engineers",
+            "Constantly communicating with product managers, clients and co-workers to ensure effectiveness and precision in the website"
           ],
-          "skills": "Skills used: Product management, database design, JIRA, Sketch, Agile, product management, UX design"
+          "skills": "Skills used: Angular 9/10, Sass, HTML, CSS, flexbox, Gitlab, NgRX, Jira, Jasmine, Karma, JavaScript, TypeScript"
         },
         {
           "job_title": "Front End Developer",
@@ -82,11 +85,15 @@
           "location": "Malvern, PA",
           "timeline": "April 2019 - January 2020",
           "job_duties": [
-            "Initiated application of digital path for multi-million dollar clients",
+            "Initiated application of digital path to ease the daily operations for multi-million dollar clients",
             "Conceptualized and designed user interface mockup-ups wih UX",
             "Connectetd with clients and support teams to ideate and prioritize projects",
             "Designed system components and delivered requirements to engineering teams",
-            "Oversaw the redesign of front-end components to use RxJS and Redux"
+            "Oversaw the redesign of front-end components to use RxJS and Redux",
+            "Designing system components and delivered requirements to engineering teams",
+            "Overseeing the redesign of front-end components to use Angular",
+            "Worked with testing frameworks such as Jasmine, karma and Cucumber",
+            "Worked in Agile team to estimate, plan and develop the product to deliver it before expectations. Retrospective approach was additional learning in Agile."
           ],
           "skills": "Skills used: Angular 8, Sass, HTML, flexbox, Bamboo, Git, Bit bucket, Gatekeeper, NgRX, Jira, Jasmine, Karma and Cucumber"
         },
@@ -96,14 +103,15 @@
           "location": "Northbrook, IL",
           "timeline": "August 2016 - March 2019",
           "job_duties": [
-            "Designed and built financial research software for the web",
-            "Built a machine learning algorithm to classify financial risk factors",
-            "Built an application for tracking and classifying correspondences between public companies and the SEC",
-            "Built a system to match stock ticker codes with companies' public filings",
-            "Built a QC panel for normalizing law firm entity names",
-            "Built dashboards to monitor application speed, reliability and data integrity",
+            "Developed highly scalable real time application using HTML, CSS, JavaScript and frameworks like AngularJS and Angular 2+",
+            "Used knwoledge of when to use front-end software design patterns such as asynchronicity, data binding, modules, MVC & promises",
+            "Worked with testing frameworks such as Jasmine and karma",
+            "Demonstrated knowledge of continuous integration of frameworks and tools like Jenkins to deploy and GIT/SVN to version control",
+            "Programmed the application using pre-processors like SASS and LESS, libraries like Bootstrap and Flex-box to make it responsive on all devices",
+            "Developed customized solutions to support critical business functions for multiple clients satisfying their meets and goals",
             "Built software for continuously maintaining and improving these systems",
-            "Oversaw legacy code migration and improvement of code quality"
+            "Oversaw legacy code migration and improvement of code quality",
+            "Demonstrated knowledge of continuous integration of frameworks and tools like Jenkins to deploy and GIT/SVN to version control"
           ],
           "skills": "Skills used: Angular 4.0, AngularJS, HTML5, CSS3, JavaScript, BootStrap3, NodeJS"
         },
