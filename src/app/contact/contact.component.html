@@ -1,3 +1,74 @@
-<p>
-  contact works!
-</p>
+<div id="container">
+  <img
+    id="contact_image"
+    src="../../assets/contact_me.jpg"
+    alt="Contact me Image"
+  />
+  <div class="contact_text">
+    <p class="contact_title">Let's win it together!</p>
+    <div class="contact_details">
+      <div class="photo_details">
+        <img
+          class="fun_img"
+          src="../../assets/fun_cropped.jpg"
+          alt="Me on buggies"
+          (click)="openFull()"
+        />
+        <p class="photo_message">
+          <b>Fun Fact: </b>Expand the Image to visualize I go an extra mile to
+          make life one amazing adventure by staying happy even injured and
+          making most of it <br />
+          <br />
+          No matter what always keep smiling - is the key! <br />
+          <br />
+          Working together may have its ups and downs but with that I promise a
+          fun time, one real friend and guranteed satisfaction! <br />
+          <br />
+          If you feel like connecting, drop your details &#9787;
+        </p>
+      </div>
+      <div class="contact_form">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+          <div class="input_container">
+            <input type="text" required id="name" formControlName="name" />
+            <span for="name">Name*</span>
+          </div>
+          <div class="input_container">
+            <input type="email" required id="email" formControlName="email" />
+            <span for="email">Email*</span>
+          </div>
+          <div class="input_container">
+            <input
+              type="text"
+              required
+              id="subject"
+              formControlName="subject"
+            />
+            <span for="subject">Matter*</span>
+          </div>
+          <div class="input_container">
+            <textarea rows="5" cols="30" formControlName="message"></textarea>
+            <span for="email">Your Important Words</span>
+          </div>
+          <div class="button_group">
+            <button type="reset" class="form_button">CLEAR</button>
+            <button
+              type="submit"
+              class="form_button"
+              [disabled]="!contactForm.valid"
+            >
+              SEND
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close" (click)="closeImg()">&times;</span>
+  <img class="modal-content" id="img01" src="../../assets/fun_me.jpg" />
+  <div id="caption"></div>
+</div>

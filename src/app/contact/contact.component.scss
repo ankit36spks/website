@@ -1,0 +1,212 @@
+$primary: #11998e;
+$secondary: #38ef7d;
+$white: #fff;
+$gray: #9b9b9b;
+
+#container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#contact_image {
+  height: inherit;
+  width: inherit;
+  position: absolute;
+}
+
+.contact_text {
+  z-index: 1;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "montserrat-medium", sans-serif;
+}
+
+.contact_title {
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 60px;
+  margin-left: 550px;
+}
+
+.contact_details {
+  display: flex;
+  margin-left: 270px;
+  margin-top: 150px;
+  max-width: 1200px;
+}
+
+.photo_details {
+  flex: 1;
+  margin-right: 150px;
+}
+
+.fun_img {
+  height: 250px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: -12px;
+}
+
+.photo_message {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-align: justify;
+}
+
+/* The Form Styles */
+.contact_form {
+  flex: 1;
+}
+
+.input_container {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.input_container span {
+  position: absolute;
+  left: 0px;
+  top: -12px;
+  font-size: 14px;
+  color: #9ec2b9;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  letter-spacing: 0.1rem;
+}
+
+.input_container input,
+.input_container textarea {
+  border: 0;
+  border-bottom: 1px solid #555;
+  background: transparent;
+  width: 100%;
+  padding: 8px 0 5px 0;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 0.25rem;
+  font-family: "montserrat-medium", sans-serif;
+}
+.input_container input:focus,
+.input_container textarea:focus {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #e74c3c;
+}
+
+.input_container input:focus ~ span,
+.input_container textarea:focus ~ span {
+  top: -12px;
+  font-size: 11px;
+}
+
+.button_group {
+  margin-top: 10px;
+}
+
+.form_button {
+  width: 200px;
+  height: 54px;
+  border-color: #ffffff;
+  background: transparent;
+  color: #ffffff;
+  letter-spacing: 0.25rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.form_button:first-of-type {
+  margin-right: 33px;
+}
+
+.form_button:hover {
+  cursor: pointer;
+  background: #f7f6f5;
+  color: #000000;
+}
+
+.form_button:disabled {
+  cursor: pointer;
+  background: #545c5b;
+  color: #000000;
+}
+
+/* The Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1100px;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 1100px;
+  }
+}
+
+/* Add Animation for modal */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
