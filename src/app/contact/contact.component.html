@@ -5,7 +5,7 @@
     alt="Contact me Image"
   />
   <div class="contact_text">
-    <p class="contact_title">Let's win it together!</p>
+    <p class="contact_title">{{ contactConfig.title }}</p>
     <div class="contact_details">
       <div class="photo_details">
         <img
@@ -14,28 +14,17 @@
           alt="Me on buggies"
           (click)="openFull()"
         />
-        <p class="photo_message">
-          <b>Fun Fact: </b>Expand the Image to visualize I go an extra mile to
-          make life one amazing adventure by staying happy even injured and
-          making most of it <br />
-          <br />
-          No matter what always keep smiling - is the key! <br />
-          <br />
-          Working together may have its ups and downs but with that I promise a
-          fun time, one real friend and guranteed satisfaction! <br />
-          <br />
-          If you feel like connecting, drop your details &#9787;
-        </p>
+        <p class="photo_message" [innerHTML]="contactConfig.photo_msg" > </p>
       </div>
       <div class="contact_form">
         <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
           <div class="input_container">
             <input type="text" required id="name" formControlName="name" />
-            <span for="name">Name*</span>
+            <span for="name">{{ contactConfig.form.name }}</span>
           </div>
           <div class="input_container">
             <input type="email" required id="email" formControlName="email" />
-            <span for="email">Email*</span>
+            <span for="email">{{ contactConfig.form.email }}</span>
           </div>
           <div class="input_container">
             <input
@@ -44,11 +33,11 @@
               id="subject"
               formControlName="subject"
             />
-            <span for="subject">Matter*</span>
+            <span for="subject">{{ contactConfig.form.matter }}</span>
           </div>
           <div class="input_container">
             <textarea rows="5" cols="30" formControlName="message"></textarea>
-            <span for="email">Your Important Words</span>
+            <span for="email">{{ contactConfig.form.message }}</span>
           </div>
           <div class="button_group">
             <button type="reset" class="form_button">CLEAR</button>
@@ -72,3 +61,6 @@
   <img class="modal-content" id="img01" src="../../assets/fun_me.jpg" />
   <div id="caption"></div>
 </div>
+
+<!-- Social Icons -->
+<app-social-icons> </app-social-icons>

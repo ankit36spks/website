@@ -161,5 +161,15 @@
       "pdf_text": "Click here for a PDF version",
       "pdf_link": "../../assets/resume.pdf"
     }
+  },
+  "contact": {
+    "title": "Let's win it together!",
+    "photo_msg": "<b>Fun Fact: </b>Expand the Image to visualize I go an extra mile to make life one amazing adventure by staying happy even injured and making most of it <br /> <br /> No matter what always keep smiling - is the key! <br /> <br /> Working together may have its ups and downs but with that I promise a fun time, one real friend and guranteed satisfaction! <br /> <br /> If you feel like connecting, drop your details &#9787;",
+    "form": {
+      "name": "Name*",
+      "email": "Email*",
+      "matter": "Matter*",
+      "message": "Your Important Words"
+    }
   }
 }

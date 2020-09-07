@@ -11,6 +11,7 @@ import {
   Validators,
   FormBuilder,
 } from '@angular/forms';
+import * as config from '../../data/config.json';
 
 @Component({
   selector: 'app-contact',
@@ -19,6 +20,7 @@ import {
 })
 export class ContactComponent implements OnInit, AfterViewInit {
   contactForm: FormGroup;
+  contactConfig: any = config.contact;
 
   constructor(fb: FormBuilder) {
     this.contactForm = fb.group({
