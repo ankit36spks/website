@@ -1,34 +1,34 @@
 import { ResumeComponent } from './resume/resume.component';
 import { WorkComponent } from './work/work.component';
-import { NgModule, Component } from "@angular/core";
-import { Routes, RouterModule } from "@angular/router";
-import { HomeComponent } from "./home/home.component";
-import { AboutComponent } from "./about/about.component";
-import { ContactComponent } from "./contact/contact.component";
+import { NgModule, Component } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
-    path: "home",
+    path: 'home',
     component: HomeComponent,
   },
   {
-    path: "about",
+    path: 'about',
     component: AboutComponent,
   },
   {
-    path: "work",
+    path: 'work',
     component: WorkComponent,
   },
   {
-    path: "resume",
+    path: 'resume',
     component: ResumeComponent,
   },
   {
-    path: "contact",
+    path: 'contact',
     component: ContactComponent,
   },
   {
-    path: "",
+    path: '',
     component: HomeComponent,
   },
 ];

@@ -1,11 +1,11 @@
-import { Component, OnInit } from "@angular/core";
-import * as config from "../../data/config.json";
-import { trigger, style, animate, transition } from "@angular/animations";
+import { Component, OnInit } from '@angular/core';
+import * as config from '../../data/config.json';
+import { trigger, style, animate, transition } from '@angular/animations';
 
 @Component({
-  selector: "app-home",
-  templateUrl: "./home.component.html",
-  styleUrls: ["./home.component.scss"],
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
   constructor() {}
@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   }
 
   changeQualities() {
-    let count: number = 0;
+    let count = 0;
     this.quality = this.qualities[count];
     setInterval(() => {
       count === this.qualities.length - 1 ? (count = 0) : count++;

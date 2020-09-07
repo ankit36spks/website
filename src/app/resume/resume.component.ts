@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as config from "../../data/config.json";
+import * as config from '../../data/config.json';
 
 @Component({
   selector: 'app-resume',
